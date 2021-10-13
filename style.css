@@ -1,0 +1,84 @@
+html{
+    background-image: url(/myfirstwebsite/assets/topography.png)
+}
+* {
+	margin: 0;
+	border: 0
+}
+body {
+	background-image: url(/myfirstwebsite/assets/topography.png);
+	font-size:20px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 60px;
+}
+
+a { text-decoration:underline
+color #ff0099 }
+.clear:before,
+.clear:after {
+	content:" ";
+	display: table
+}
+.clear:after { clear: both }
+.arrow {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: 2px;
+	vertical-align: middle
+}
+.arrow.down {
+	border-top: 4px solid;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent
+}
+.arrow.up {
+	border-bottom: 4px solid;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent
+}
+
+nav {
+	width: 100%;
+	background: #333333
+}
+nav .navbar {
+	width: 95%;
+	max-width: 1000px;
+	margin:0 auto
+}
+nav a { color: #ff0099 }
+nav .logo {float: left;
+	display: inline-block;
+    padding-top: 10px;
+}
+nav .menu-toggle {
+	cursor: pointer;
+	display: none;
+	float: right;
+	padding: 12px;
+	margin: 10px 0;
+	transition: background-color .5s
+}
+nav .menu ul { float: right }
+nav .menu li {
+	float: left;
+	list-style: none;
+	border-left: 2px solid #171817
+}
+
+hr {
+    border-top: 2px dashed black;
+    width: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+ }
+
+h2 {text-align: center;
+font-size: 60px;}
+h3 {font-size: 30px;
+color: #ff0099;}
+p {text-align: left;}
