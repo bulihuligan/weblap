@@ -9,9 +9,12 @@ body {
     line-height: 60px;}
 a { text-decoration:underline
 color #ff0099 }
-a:hover {background-color: #f3b0d8;}
-a:link {background-color:;}
-a:visited {background-color: ;}
+p a:hover {
+	background-color: #fff;}
+a:hover {background-color: #f3b0d8;
+		}
+a:visited {color: black;}
+/* :not(es amit ki akarok hagyni+formazas) */
 .clear:before,
 .clear:after {
 	content:" ";
