@@ -1,25 +1,21 @@
-html{
-    background-image: url(/myfirstwebsite/assets/topography.png)
-}
-* {
-	margin: 0;
-	border: 0
-}
+* {margin: 0;
+	border: 0}
 body {
-	background-image: url(/myfirstwebsite/assets/topography.png);
+	background-image: url(assets/topography.png);
 	font-size:20px;
     text-align: center;
     padding-left: 10%;
     padding-right: 10%;
-    line-height: 60px;
-}
-
+    line-height: 60px;}
 a { text-decoration:underline
 color #ff0099 }
+a:hover {background-color: #f3b0d8;}
+a:link {background-color:;}
+a:visited {background-color: ;}
 .clear:before,
 .clear:after {
 	content:" ";
-	display: table
+	display: table;
 }
 .clear:after { clear: both }
 .arrow {
@@ -37,9 +33,7 @@ color #ff0099 }
 .arrow.up {
 	border-bottom: 4px solid;
 	border-right: 4px solid transparent;
-	border-left: 4px solid transparent
-}
-
+	border-left: 4px solid transparent}
 nav {
 	width: 100%;
 	background: #333333
@@ -51,7 +45,7 @@ nav .navbar {
 }
 nav a { color: #ff0099 }
 nav .logo {float: left;
-	display: inline-block;
+	display: table;
     padding-top: 10px;
 }
 nav .menu-toggle {
@@ -60,25 +54,23 @@ nav .menu-toggle {
 	float: right;
 	padding: 12px;
 	margin: 10px 0;
-	transition: background-color .5s
-}
+	transition: background-color .5s}
 nav .menu ul { float: right }
 nav .menu li {
 	float: left;
 	list-style: none;
-	border-left: 2px solid #171817
-}
-
+	padding-right: 15px;}
 hr {
     border-top: 2px dashed black;
     width: 20px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
- }
-
+    text-align: center;}
+h1{text-align: left;}
 h2 {text-align: center;
 font-size: 60px;}
 h3 {font-size: 30px;
-color: #ff0099;}
+color: black;
+text-align: left;}
+em {color: #ff0099}
 p {text-align: left;}
